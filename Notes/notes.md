@@ -15,3 +15,5 @@ Lexer - ensure that you are following the grammer of language
 
 case insensitive; almost
 Everything is a type
+
+GOOS="windows" go build
