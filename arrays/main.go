@@ -11,7 +11,7 @@ func main () {
 
 	fmt.Println(fruitList)
 	fmt.Println(len(fruitList))
-	var veglist = [3]string {"patato" , "tamato" , "brinjal"}
+	var veglist = [5]string {"patato" , "tamato" , "brinjal"}
 	fmt.Println(veglist)
 	fmt.Println(len(veglist))
 
