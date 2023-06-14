@@ -3,7 +3,8 @@ go 1.19
 use (
 	./conversion
 	./hello
+	./mytime
+	./pointers
 	./userinput
 	./variables
-	./mytime
 )

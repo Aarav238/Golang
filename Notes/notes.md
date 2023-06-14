@@ -17,3 +17,19 @@ case insensitive; almost
 Everything is a type
 
 GOOS="windows" go build
+
+memory allocation and deallocation happens automatically
+
+new()                    make()
+allocatie memory but   allocate memory and INIT
+no INIT
+you will get memory    you will get a memory 
+address                    address
+
+zeroed storage               non-zeroed storage
+
+
+GC happens automatically
+out of scope or nil
+
+reference means &
