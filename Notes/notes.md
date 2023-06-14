@@ -1,4 +1,4 @@
-# Notes: Packages and Imports in Go
+# Packages and Imports in Go
 
 ## Packages
 
