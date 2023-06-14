@@ -75,6 +75,47 @@ Remember, proper package organization and importing the necessary packages help 
 
 
 
+---
+# User Input in Go
+
+## Reading User Input
+
+- To read user input in Go, you can use the `bufio` package along with `os.Stdin` for standard input.
+- First, you need to import the necessary packages: `bufio` and `os`.
+- Create a new `Scanner` using `bufio.NewScanner(os.Stdin)` to read input from the user.
+- Use the `Scanner`'s `Scan()` method to read the input until a newline character is encountered.
+- The user input can be accessed using the `Text()` method of the `Scanner`.
+
+Example:
+```go
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func main() {
+	welcome := "welcome to user input"
+	fmt.Println(welcome)
+
+	reader := bufio.NewReader(os.Stdin)
+
+	fmt.Println("Enter the rating for goland:")
+
+	//comma okay syntax or error ok syntax
+
+	input, _ := reader.ReadString('\n')
+
+	fmt.Println(" thanks for rating ,", input)
+	fmt.Printf("type of this rating is %T", input)
+}
+
+```
+
+
+
 
 
 
