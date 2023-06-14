@@ -114,6 +114,51 @@ func main() {
 
 ```
 
+# Time Conversion Study in Go
+
+## Getting Current Time
+
+- To get the current time in Go, you can use the `time.Now()` function.
+- Import the `time` package to access time-related functionality.
+- Call `time.Now()` to obtain the current time.
+- The returned value is of type `Time`.
+
+Example:
+```go
+presentTime := time.Now()
+fmt.Println(presentTime)
+```
+
+## Formatting Time
+- You can format a `Time` value into a specific layout using the `Format()` method.
+- The `Format()` method accepts a layout string that defines the desired time format.
+- The layout string is based on specific format placeholders like "01" for month, "02" for day, "2006" for year, and so on.Different placeholders are separated by specific separator characters, such as "-" or ":".
+- Import the `time` package to access time-related functionality.
+
+Example: 
+```go
+fmt.Println(presentTime.Format("01-01-2006 15:04:05 Monday "))
+
+```
+above should be followed strictly.
+## Creating a Custom Date
+
+- You can create a custom `Time` value representing a specific date and time using the `time.Date()` function.
+- Specify the year, month, day, hour, minute, second, and time zone information to create the `Time` value.
+- The time zone information is optional; you can omit it or use `time.UTC` for UTC time.
+- Import the `time` package to access time-related functionality.
+
+**Example:**
+```go
+createdDate := time.Date(2020, time.January, 10, 23, 23, 0, 0, time.UTC)
+fmt.Println(createdDate)
+fmt.Println(createdDate.Format("01-02-2006 Monday "))
+```
+In the example above, we create a Time value called createdDate representing January 10, 2020, at 23:23 in the UTC time zone. We then print the createdDate value, which outputs the date and time in the default format. Next, we format the createdDate value using the layout string "01-02-2006 Monday", which prints the date in the format "01-02-2006" (month-day-year) followed by the day of the week.
+
+Remember to import the necessary packages (fmt and time), use the appropriate functions and methods from the time package, and format the time using the desired layout string.
+
+
 
 
 
