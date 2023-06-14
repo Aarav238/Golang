@@ -76,6 +76,68 @@ Remember, proper package organization and importing the necessary packages help 
 
 
 ---
+# Variables in Go
+
+## Declaration and Initialization
+
+- Variables in Go are declared using the `var` keyword followed by the variable name and type.
+- Variables can be initialized at the time of declaration or later.
+- The `:=` short variable declaration syntax can be used for short and concise variable declaration and initialization.
+
+Example:
+```go
+var age int // Variable declaration
+age = 25 // Variable initialization
+
+name := "John" // Short variable declaration and initialization
+```
+## Variable Types
+
+- Go is a statically-typed language, which means variables have a fixed type that cannot be changed.
+- Common variable types include `int` for integers, `float64` for floating-point numbers, `string` for text, `bool` for boolean values, and more.
+- You can also create custom types using the `type` keyword.
+
+**Example:**
+```go
+var count int
+var pi float64
+var message string
+var isActive bool
+```
+
+## Constants
+
+- Constants are similar to variables but their values cannot be changed once assigned.
+- Constants are declared using the `const` keyword.
+- Constants must be assigned a value at the time of declaration.
+
+**Example:**
+```go
+const pi = 3.14
+const daysInWeek = 7
+```
+## Scope and Visibility
+
+- Variables in Go have a scope, which determines where the variable is accessible.
+- A variable declared within a function has a local scope and is only accessible within that function.
+- A variable declared outside of any function, at the package level, has a global scope and can be accessed by all functions within that package.
+
+**Example:**
+```go
+package main
+
+import "fmt"
+
+var globalVariable = "Global" // Global variable
+
+func main() {
+    var localVariable = "Local" // Local variable
+    fmt.Println(localVariable)
+    fmt.Println(globalVariable)
+}
+```
+
+---
 # User Input in Go
 
 ## Reading User Input
