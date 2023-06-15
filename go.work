@@ -4,10 +4,11 @@ use (
 	./arrays
 	./conversion
 	./hello
+	./maps
 	./mytime
 	./pointers
+	./slices
 	./userinput
 	./variables
-	./slices
 
 )
