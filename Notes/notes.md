@@ -76,6 +76,19 @@ Remember, proper package organization and importing the necessary packages help 
 
 
 ---
+# Your First Go pragram
+```go
+package main // the package is named "main." The package name "main" is a special package in Go, indicating that this file will be compiled into an executable program.
+
+import "fmt" // The "fmt" package provides various functions for formatted I/O, including printing to the console.
+
+func main() { //  The "main" function is a special function in Go, as it serves as the entry point of the program. Execution of the program starts from this function.
+    fmt.Println("Hello, Go!") // This line calls the "Println" function from the "fmt" package to print the string "Hello, Go!" to the console. "Println" is a function that prints a line to the standard output, followed by a newline character.
+}
+
+```
+
+---
 # Variables in Go
 
 ## Declaration and Initialization
