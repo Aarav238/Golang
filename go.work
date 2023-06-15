@@ -10,6 +10,7 @@ use (
 	./pointers
 	./slices
 	./structs
+	./switchCase
 	./userinput
 	./variables
 
