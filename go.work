@@ -4,6 +4,7 @@ use (
 	./arrays
 	./conversion
 	./hello
+	./ifelse
 	./maps
 	./mytime
 	./pointers
