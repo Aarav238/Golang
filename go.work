@@ -8,6 +8,7 @@ use (
 	./mytime
 	./pointers
 	./slices
+	./structs
 	./userinput
 	./variables
 
