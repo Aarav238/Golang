@@ -1,6 +1,7 @@
 go 1.19
 
 use (
+	"./functions in go"
 	./arrays
 	./conversion
 	./hello
