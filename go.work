@@ -4,6 +4,7 @@ use (
 	"./functions in go"
 	./arrays
 	./conversion
+	./defers
 	./hello
 	./ifelse
 	./loops
