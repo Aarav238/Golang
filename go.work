@@ -8,6 +8,7 @@ use (
 	./ifelse
 	./loops
 	./maps
+	./methods
 	./mytime
 	./pointers
 	./slices
