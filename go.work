@@ -5,6 +5,7 @@ use (
 	./conversion
 	./hello
 	./ifelse
+	./loops
 	./maps
 	./mytime
 	./pointers
