@@ -16,6 +16,7 @@ use (
 	./slices
 	./structs
 	./switchCase
+	./urls
 	./userinput
 	./variables
 	./webservers
