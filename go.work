@@ -5,6 +5,7 @@ use (
 	./arrays
 	./conversion
 	./defers
+	./filesRead
 	./hello
 	./ifelse
 	./loops
