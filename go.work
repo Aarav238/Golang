@@ -13,6 +13,7 @@ use (
 	./methods
 	./mytime
 	./pointers
+	./requests
 	./slices
 	./structs
 	./switchCase
