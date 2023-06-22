@@ -10,8 +10,7 @@ import (
 
 func main () {
 	fmt.Println("hello world")
-	PerformPostFormRequest()
-
+	PerformPostFormRequest()	
 	//PerformGetRequest()
 	//PerformPostJSONRequest()
 }
@@ -21,7 +20,6 @@ func PerformGetRequest(){
 	const myurl = "http://localhost:8000/get"
 
 	res,err :=  http.Get(myurl)
-
 	if err!=nil{
 		panic(err)
 	}
