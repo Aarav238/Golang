@@ -1,4 +1,4 @@
-module github.com/hiteshchoudhary/buildapi
+module github.com/Aarav238/buildapi
 
 go 1.17
 

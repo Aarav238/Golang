@@ -3,15 +3,17 @@ go 1.19
 use (
 	"./functions in go"
 	./arrays
-	./buildAPi
+	./buildapi
 	./conversion
 	./defers
 	./filesRead
+	./goroutines
 	./hello
 	./ifelse
 	./loops
 	./maps
 	./methods
+	./mongodb
 	./mytime
 	./pointers
 	./requests
@@ -22,6 +24,5 @@ use (
 	./userinput
 	./variables
 	./webservers
-	./mongodb
 
 )
