@@ -33,8 +33,9 @@ func main () {
 
 func getStatusCode (endpoint string){
 	result, err := http.Get(endpoint)
-	if err != nil {
+	if err != nil{
 		fmt.Println("endpoint error")
+		
 	}
 
 	fmt.Printf(" %d status code for %s,", result.StatusCode, endpoint)
